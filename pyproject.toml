@@ -1,5 +1,5 @@
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
-python_funtions = ["test_*"]
-adopts = "-ra -strict-makers"
+python_functions = ["test_*"]
+addopts = "-ra --strict-markers"
