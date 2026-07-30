@@ -18,3 +18,6 @@ def calculate_total(unit_price: float, quantity: int, discount_percentage: float
     subtotal = calculate_subtotal(unit_price, quantity)
     discount = calculate_discount(subtotal, discount_percentage)
     return subtotal - discount
+
+#TALLER Y ACTIVIDAD
+
